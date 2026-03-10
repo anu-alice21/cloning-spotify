@@ -1,0 +1,256 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: var(--encore-variable-font-stack);
+}
+nav{
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+nav div{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav svg{
+    height: 20px;
+    fill: white;
+}
+nav div+div{
+    width: 43%;
+    justify-content: flex-start;
+}
+
+
+nav ol{
+        list-style: none;
+        display: flex;
+        width: 60%;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 9px;
+        font-weight: 800;
+}
+nav ol li:hover{
+    cursor: pointer;
+    color: #1ed760;
+}
+main{
+    height: 630px;
+    background: url('https://wwwmarketing.scdn.co/static/images/free/desktop-hero.jpeg') center 40%/100% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+main h1{
+    color: white;
+    font-size: 63px;
+    letter-spacing: -3px;
+    height: 180px;
+}
+main button{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+main div{
+    height: 300px;
+    width: 35%;
+}
+#sec1{
+    /* border: 2px solid red; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+#sec1 h1{
+    font-size: 42px;
+    text-align: center;
+}
+#sec1 aside{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+#sec1 div{
+    height: 350px;
+    width: 250px;
+    text-align: center;
+}
+#sec1 p{
+    line-height: 25px;
+}
+#sec2{
+    height: 450px;
+    background: url('./Assests/desktop_benefit.png')  center bottom no-repeat rgb(30, 215, 96);
+}
+#sec2 h1{
+    text-align: center;
+    font-size: 45px;
+}
+#sec3{
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+#sec3 h1{
+    text-align: center;
+    font-size: 40px;
+}
+#sec3 aside{
+    height: 350px;
+    width: 60%;
+}
+#sec3 summary{
+    list-style: none;
+    height: 70px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 25px;
+}
+#sec3 summary:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+#sec3 details{
+    border-bottom: 1px solid lightgrey;
+}
+#sec3 font{
+    color: green;
+    font-weight: 600;
+}
+#sec3 span{
+    float: right;
+    font-size: 30px;
+}
+#sec4{
+    height: 530px;
+    background: url('./Assests/desktop-closing.jpeg') center 40%/100% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+#sec4 h1{
+    color: white;
+    font-size: 63px;
+    letter-spacing: -3px;
+    height: 180px;
+}
+#sec4 button{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+#sec4 div{
+    height: 300px;
+    width: 35%;
+}
+footer{
+    border: 2px solid;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20%;
+    background-color: black;
+    color: white;
+}
+footer svg{
+    height: 35px;
+    fill: white;
+}
+footer section{
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+}
+footer section ol{
+    list-style: none;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+footer section ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    width: 130px;
+
+}
+footer section ul>li{
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    background-color: #222326;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+footer section ol>li:first-child{
+    color: rgba(211,211,211,0.548);
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+footer section ol>li+li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+footer aside ol>li{
+    font-size: 13px;
+    color: rgba(211,211,211,0.548);
+    
+}
+footer aside ol>li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+footer aside{
+    width: 65%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer aside ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+
+}
+footer aside ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 50px;
+}
